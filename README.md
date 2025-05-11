@@ -18,7 +18,7 @@ git clone https://github.com/nohouse-felix/pycurvert.git
 
 2. Set the required Environment Variable on your machine before launching the application:
 ```
-export API_KEY=<YOUR_API_KEY_HERE>
+export CURRENCY_API_KEY=<YOUR_API_KEY_HERE>
 ```
 
 Alternatively, you can hardcode your API-Key into the source code by uncommenting the section below `API_KEY = os.getenv("CURRENCY_API_KEY")` and manually putting in your Key there, although this is not recommended.
