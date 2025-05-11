@@ -8,6 +8,7 @@ The user gets prompted for the required input parameters and is then presented w
 ## Instructions
 > [!NOTE]
 > For the application to work, a valid API-Key for [ExchangeRate-API](https://www.exchangerate-api.com/) is required. You can sign up for a free account and get one on their website.
+>
 > *This is not an affiliation of any kind, I simple decided to use their service for my application.*
 
 1. Clone the pycurvert repository:
