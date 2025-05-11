@@ -29,7 +29,7 @@ def unsupported_currency_message():
 def get_convert_from():
     convert_from = input("\nPlease specify the currency you want to convert from [3 letter abbreviation]: ")
 
-    # Input consits of 3 letters (valid)
+    # Input consists of 3 letters (valid)
     if len(convert_from) == 3 and convert_from.isalpha():
         convert_from = convert_from.upper()
 
@@ -49,7 +49,7 @@ def get_convert_from():
 def get_convert_to():
     convert_to = input("\nPlease specify the currency you want to convert to [3 letter abbreviation]: ")
 
-    # Input consits of 3 letters (valid)
+    # Input consists of 3 letters (valid)
     if len(convert_to) == 3 and convert_to.isalpha():
         convert_to = convert_to.upper()
 
